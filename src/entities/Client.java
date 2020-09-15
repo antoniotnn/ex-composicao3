@@ -44,7 +44,7 @@ public class Client {
 		this.birthDate = birthDate;
 	}
 	public String toString() {
-		return "Client: "+name+" "+sdf.format(birthDate)+" - "+email;
+		return name+" "+sdf.format(birthDate)+" - "+email;
 	}
 	
 }
